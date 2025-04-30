@@ -169,6 +169,26 @@ marquee img{
 	border-radius: 10px;
 	padding: 20px 40px;
 	width: 40%;
+	margin-bottom: 10px;
+}
+.about_container .infos2{
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.about_container .infos2:hover{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.3rem 0.6rem;
+}
+.about_container .infos2 div h4{
+	margin-bottom: 5px;
+}
+.about_container .infos2 div h5{
+	margin-bottom: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about_container .infos2 div li{
+	margin-bottom: 5px;
 }
 .about_container .infos h3{
 	display: flex;
@@ -204,7 +224,7 @@ marquee img{
     text-align: center;
     width: 100%;
 }
-.about_container .infos h3 img{
+.about_container .infos img{
 	height: 20px;
 	margin-right: 10px;
 }
