@@ -298,6 +298,16 @@ marquee img{
 	border-radius: 3px;
 	outline: none;
 }
+
+.apply_form form select{
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 15px 10px;
+	border-radius: 3px;
+	outline: none;
+}
 .apply_form .apply_btn{
 	display: block;
     font-weight: 500;
