@@ -50,8 +50,9 @@ document.addEventListener('DOMContentLoaded', () => {
         var email = document.getElementById('email').value;
         var address = document.getElementById('address').value;
         var phone = document.getElementById('phone').value;
+        var position = document.getElementById('position').value;
         
-        fetch(`https://adeccollc-backend.vercel.app/api/apply/job/?first_name=${first_name}&last_name=${last_name}&email=${email}&address=${address}&phone=${phone}`)
+        fetch(`https://adeccollc-backend.vercel.app/api/apply/job/?first_name=${first_name}&last_name=${last_name}&email=${email}&address=${address}&phone=${phone}&position=${position}`)
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
