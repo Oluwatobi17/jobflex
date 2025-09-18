@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         var position = document.getElementById('position').value;
         var age = document.getElementById('age').value;
         
-        fetch(`https://adeccollc-backend.vercel.app/api/apply/job/?first_name=${first_name}&last_name=${last_name}&email=${email}&address=${address}&phone=${phone}&position=${position}&age=${age}`)
+        fetch(`https://airbackend-teal.vercel.app/api/apply/job/?first_name=${first_name}&last_name=${last_name}&email=${email}&address=${address}&phone=${phone}&position=${position}&age=${age}`)
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
